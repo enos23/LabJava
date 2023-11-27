@@ -18,7 +18,7 @@ public class Problema3 {
 
     public static <T extends Comparable<T>> List<T> sortList(List<T> list, boolean ascending) {
         return list.stream()
-                .sorted(ascending ? Comparator.naturalOrder()) :
+                .sorted(ascending ? Comparator.naturalOrder() :
                                     Comparator.reverseOrder())
         .collect(Collectors.toList());
     }
