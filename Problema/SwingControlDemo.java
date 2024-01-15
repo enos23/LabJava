@@ -10,7 +10,7 @@ public class SwingControlDemo {
     private JPanel controlPanel;
     public SwingControlDemo() {
         prepareGUI();
-    }
+    }//aaa
     public static void main(String[] args) {
         SwingControlDemo swingControlDemo = new SwingControlDemo();
         swingControlDemo.showTextFieldDemo();
